@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_horror"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.acloetlive.writing.Horror">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Horror is a genre of fiction which is intended to frighten, scare, disgust, or startle readers.  The genre has it's origins in folklore and relgion that dealt with themes like demons, death, and the afterlife.  The Horror genre can be combined with other Genres like Fantasy and Sci-fi.
+                Not all Horror has to have a supernatural source.
+                Many readers read horror because of the thrill of being frightened.  "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:text="Famous Horror Writers H.P. Lovecraft: Call of Cthulu, Dagon, Color out of Space, Stephen King: IT, the Shinning, , Edgar Allan Poe: the Raven, the Black Cat, Dean Koontz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="77dp"
+                android:id="@+id/textView4" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
